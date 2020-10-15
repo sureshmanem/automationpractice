@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="3" total="5" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Clicked on Sign In]]>
+    </line>
+    <line>
+      <![CDATA[The value entered for Email ID is gajeliy701@septicvernon.com]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Sign In]]>
+    </line>
+    <line>
+      <![CDATA[The value entered for First Name is Michael]]>
+    </line>
+    <line>
+      <![CDATA[The value entered for Last Name is Jackson]]>
+    </line>
+    <line>
+      <![CDATA[The value entered for Password is Welcome@123]]>
+    </line>
+    <line>
+      <![CDATA[The value entered for Address First Name is Michael]]>
+    </line>
+    <line>
+      <![CDATA[The value entered for Address Last Name is Jack]]>
+    </line>
+    <line>
+      <![CDATA[The value entered for Address is Manyata]]>
+    </line>
+    <line>
+      <![CDATA[The value entered for City is Bangalore]]>
+    </line>
+    <line>
+      <![CDATA[The value selected for State is Alabama]]>
+    </line>
+    <line>
+      <![CDATA[The value entered for Zip Code is 07302]]>
+    </line>
+    <line>
+      <![CDATA[The value selected for Country is United States]]>
+    </line>
+    <line>
+      <![CDATA[The value entered for Zip Code is 8056011223]]>
+    </line>
+    <line>
+      <![CDATA[The value entered for Zip Code is Bengaluru]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Register]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on LogOut]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Sign In]]>
+    </line>
+    <line>
+      <![CDATA[The value entered for Email ID is gajeliy701@septicvernon.com]]>
+    </line>
+    <line>
+      <![CDATA[The value entered for Password is Welcome@123]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Submit Login]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on T-Shirt]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Merchandise]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Add-To-Cart]]>
+    </line>
+    <line>
+      <![CDATA[The Value for Product Price is $16.51]]>
+    </line>
+    <line>
+      <![CDATA[The Value for Total Price is $18.51]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Proceed]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Proceed Summary]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Process Address]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Agree]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Process Carrier]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on PayByBank]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Confirm Order]]>
+    </line>
+    <line>
+      <![CDATA[The Value for Final Confirmation is Your order on My Store is complete.]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on User Name]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Order History]]>
+    </line>
+    <line>
+      <![CDATA[The Value for Order Reference is LTHWJAOWR]]>
+    </line>
+    <line>
+      <![CDATA[The Value for Order Price is $19.25]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on LogOut]]>
+    </line>
+    <line>
+      <![CDATA[The Value for Home Page is Sign in]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="80640" started-at="2020-10-15T14:11:03 IST" finished-at="2020-10-15T14:12:24 IST">
+    <groups>
+    </groups>
+    <test name="Online Shopping" duration-ms="80640" started-at="2020-10-15T14:11:03 IST" finished-at="2020-10-15T14:12:24 IST">
+      <class name="com.selenium.tests.Registration">
+        <test-method status="PASS" signature="readExcelFile()[pri:0, instance:com.selenium.tests.Registration@33f88ab]" name="readExcelFile" is-config="true" duration-ms="13" started-at="2020-10-15T14:11:03 IST" finished-at="2020-10-15T14:11:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readExcelFile -->
+        <test-method status="PASS" signature="fnLaunchBrowser()[pri:0, instance:com.selenium.tests.Registration@33f88ab]" name="fnLaunchBrowser" is-config="true" duration-ms="24206" started-at="2020-10-15T14:11:03 IST" finished-at="2020-10-15T14:11:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fnLaunchBrowser -->
+        <test-method status="PASS" signature="testRegistration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.selenium.tests.Registration@33f88ab]" name="testRegistration" duration-ms="11796" started-at="2020-10-15T14:11:28 IST" data-provider="customer_information" finished-at="2020-10-15T14:11:40 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Michael]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Jackson]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[gajeliy701@septicvernon.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Welcome@123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Michael]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Jack]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Manyata]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Bangalore]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Alabama]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[07302]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[United States]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[8056011223]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[Bengaluru]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Clicked on Sign In]]>
+            </line>
+            <line>
+              <![CDATA[The value entered for Email ID is gajeliy701@septicvernon.com]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Sign In]]>
+            </line>
+            <line>
+              <![CDATA[The value entered for First Name is Michael]]>
+            </line>
+            <line>
+              <![CDATA[The value entered for Last Name is Jackson]]>
+            </line>
+            <line>
+              <![CDATA[The value entered for Password is Welcome@123]]>
+            </line>
+            <line>
+              <![CDATA[The value entered for Address First Name is Michael]]>
+            </line>
+            <line>
+              <![CDATA[The value entered for Address Last Name is Jack]]>
+            </line>
+            <line>
+              <![CDATA[The value entered for Address is Manyata]]>
+            </line>
+            <line>
+              <![CDATA[The value entered for City is Bangalore]]>
+            </line>
+            <line>
+              <![CDATA[The value selected for State is Alabama]]>
+            </line>
+            <line>
+              <![CDATA[The value entered for Zip Code is 07302]]>
+            </line>
+            <line>
+              <![CDATA[The value selected for Country is United States]]>
+            </line>
+            <line>
+              <![CDATA[The value entered for Zip Code is 8056011223]]>
+            </line>
+            <line>
+              <![CDATA[The value entered for Zip Code is Bengaluru]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Register]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on LogOut]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testRegistration -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.selenium.tests.Registration@33f88ab]" name="closeBrowser" is-config="true" duration-ms="821" started-at="2020-10-15T14:12:23 IST" finished-at="2020-10-15T14:12:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.selenium.tests.Registration -->
+      <class name="com.selenium.tests.Purchasing">
+        <test-method status="PASS" signature="testPurchasing(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.selenium.tests.Purchasing@27a8c74e]" name="testPurchasing" duration-ms="42857" started-at="2020-10-15T14:11:40 IST" data-provider="customer_information" finished-at="2020-10-15T14:12:23 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Michael]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Jackson]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[gajeliy701@septicvernon.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Welcome@123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Michael]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Jack]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Manyata]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Bangalore]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Alabama]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[07302]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[United States]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[8056011223]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[Bengaluru]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Clicked on Sign In]]>
+            </line>
+            <line>
+              <![CDATA[The value entered for Email ID is gajeliy701@septicvernon.com]]>
+            </line>
+            <line>
+              <![CDATA[The value entered for Password is Welcome@123]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Submit Login]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on T-Shirt]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Merchandise]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Add-To-Cart]]>
+            </line>
+            <line>
+              <![CDATA[The Value for Product Price is $16.51]]>
+            </line>
+            <line>
+              <![CDATA[The Value for Total Price is $18.51]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Proceed]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Proceed Summary]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Process Address]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Agree]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Process Carrier]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on PayByBank]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Confirm Order]]>
+            </line>
+            <line>
+              <![CDATA[The Value for Final Confirmation is Your order on My Store is complete.]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on User Name]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Order History]]>
+            </line>
+            <line>
+              <![CDATA[The Value for Order Reference is LTHWJAOWR]]>
+            </line>
+            <line>
+              <![CDATA[The Value for Order Price is $19.25]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on LogOut]]>
+            </line>
+            <line>
+              <![CDATA[The Value for Home Page is Sign in]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testPurchasing -->
+      </class> <!-- com.selenium.tests.Purchasing -->
+    </test> <!-- Online Shopping -->
+  </suite> <!-- Suite -->
+</testng-results>

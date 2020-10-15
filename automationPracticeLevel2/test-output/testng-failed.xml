@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Online Shopping(failed)">
+    <classes>
+      <class name="com.selenium.tests.Purchasing">
+        <methods>
+          <include name="testPurchasing"/>
+          <include name="closeBrowser"/>
+          <include name="readExcelFile"/>
+          <include name="fnLaunchBrowser"/>
+        </methods>
+      </class> <!-- com.selenium.tests.Purchasing -->
+      <class name="com.selenium.tests.Registration">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="readExcelFile"/>
+          <include name="fnLaunchBrowser"/>
+          <include name="testRegistration"/>
+        </methods>
+      </class> <!-- com.selenium.tests.Registration -->
+    </classes>
+  </test> <!-- Online Shopping(failed) -->
+</suite> <!-- Failed suite [Suite] -->
