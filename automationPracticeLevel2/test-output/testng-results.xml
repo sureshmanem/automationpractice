@@ -5,7 +5,7 @@
       <![CDATA[Clicked on Sign In]]>
     </line>
     <line>
-      <![CDATA[The value entered for Email ID is gajeliy701@septicvernon.com]]>
+      <![CDATA[The value entered for Email ID is gajeliy704@septicvernon.com]]>
     </line>
     <line>
       <![CDATA[Clicked on Sign In]]>
@@ -56,7 +56,7 @@
       <![CDATA[Clicked on Sign In]]>
     </line>
     <line>
-      <![CDATA[The value entered for Email ID is gajeliy701@septicvernon.com]]>
+      <![CDATA[The value entered for Email ID is gajeliy704@septicvernon.com]]>
     </line>
     <line>
       <![CDATA[The value entered for Password is Welcome@123]]>
@@ -110,7 +110,7 @@
       <![CDATA[Clicked on Order History]]>
     </line>
     <line>
-      <![CDATA[The Value for Order Reference is LTHWJAOWR]]>
+      <![CDATA[The Value for Order Reference is AUSOKVDRU]]>
     </line>
     <line>
       <![CDATA[The Value for Order Price is $19.25]]>
@@ -122,20 +122,20 @@
       <![CDATA[The Value for Home Page is Sign in]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="80640" started-at="2020-10-15T14:11:03 IST" finished-at="2020-10-15T14:12:24 IST">
+  <suite name="Suite" duration-ms="81128" started-at="2020-10-21T20:51:05 IST" finished-at="2020-10-21T20:52:27 IST">
     <groups>
     </groups>
-    <test name="Online Shopping" duration-ms="80640" started-at="2020-10-15T14:11:03 IST" finished-at="2020-10-15T14:12:24 IST">
-      <class name="com.selenium.tests.Registration">
-        <test-method status="PASS" signature="readExcelFile()[pri:0, instance:com.selenium.tests.Registration@33f88ab]" name="readExcelFile" is-config="true" duration-ms="13" started-at="2020-10-15T14:11:03 IST" finished-at="2020-10-15T14:11:03 IST">
+    <test name="Online Shopping" duration-ms="81128" started-at="2020-10-21T20:51:05 IST" finished-at="2020-10-21T20:52:27 IST">
+      <class name="com.selenium.tests.T01_Registration">
+        <test-method status="PASS" signature="readExcelFile()[pri:0, instance:com.selenium.tests.T01_Registration@33f88ab]" name="readExcelFile" is-config="true" duration-ms="12" started-at="2020-10-21T20:51:05 IST" finished-at="2020-10-21T20:51:05 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- readExcelFile -->
-        <test-method status="PASS" signature="fnLaunchBrowser()[pri:0, instance:com.selenium.tests.Registration@33f88ab]" name="fnLaunchBrowser" is-config="true" duration-ms="24206" started-at="2020-10-15T14:11:03 IST" finished-at="2020-10-15T14:11:27 IST">
+        <test-method status="PASS" signature="fnLaunchBrowser()[pri:0, instance:com.selenium.tests.T01_Registration@33f88ab]" name="fnLaunchBrowser" is-config="true" duration-ms="13232" started-at="2020-10-21T20:51:05 IST" finished-at="2020-10-21T20:51:19 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fnLaunchBrowser -->
-        <test-method status="PASS" signature="testRegistration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.selenium.tests.Registration@33f88ab]" name="testRegistration" duration-ms="11796" started-at="2020-10-15T14:11:28 IST" data-provider="customer_information" finished-at="2020-10-15T14:11:40 IST">
+        <test-method status="PASS" signature="testRegistration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.selenium.tests.T01_Registration@33f88ab]" name="testRegistration" duration-ms="15059" started-at="2020-10-21T20:51:20 IST" data-provider="customer_information" finished-at="2020-10-21T20:51:35 IST">
           <params>
             <param index="0">
               <value>
@@ -149,7 +149,7 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[gajeliy701@septicvernon.com]]>
+                <![CDATA[gajeliy704@septicvernon.com]]>
               </value>
             </param>
             <param index="3">
@@ -208,7 +208,7 @@
               <![CDATA[Clicked on Sign In]]>
             </line>
             <line>
-              <![CDATA[The value entered for Email ID is gajeliy701@septicvernon.com]]>
+              <![CDATA[The value entered for Email ID is gajeliy704@septicvernon.com]]>
             </line>
             <line>
               <![CDATA[Clicked on Sign In]]>
@@ -257,13 +257,13 @@
             </line>
           </reporter-output>
         </test-method> <!-- testRegistration -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.selenium.tests.Registration@33f88ab]" name="closeBrowser" is-config="true" duration-ms="821" started-at="2020-10-15T14:12:23 IST" finished-at="2020-10-15T14:12:24 IST">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.selenium.tests.T01_Registration@33f88ab]" name="closeBrowser" is-config="true" duration-ms="831" started-at="2020-10-21T20:52:26 IST" finished-at="2020-10-21T20:52:27 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- com.selenium.tests.Registration -->
-      <class name="com.selenium.tests.Purchasing">
-        <test-method status="PASS" signature="testPurchasing(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.selenium.tests.Purchasing@27a8c74e]" name="testPurchasing" duration-ms="42857" started-at="2020-10-15T14:11:40 IST" data-provider="customer_information" finished-at="2020-10-15T14:12:23 IST">
+      </class> <!-- com.selenium.tests.T01_Registration -->
+      <class name="com.selenium.tests.T02_Purchasing">
+        <test-method status="PASS" signature="testPurchasing(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.selenium.tests.T02_Purchasing@27a8c74e]" name="testPurchasing" duration-ms="50739" started-at="2020-10-21T20:51:35 IST" data-provider="customer_information" finished-at="2020-10-21T20:52:26 IST">
           <params>
             <param index="0">
               <value>
@@ -277,7 +277,7 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[gajeliy701@septicvernon.com]]>
+                <![CDATA[gajeliy704@septicvernon.com]]>
               </value>
             </param>
             <param index="3">
@@ -336,7 +336,7 @@
               <![CDATA[Clicked on Sign In]]>
             </line>
             <line>
-              <![CDATA[The value entered for Email ID is gajeliy701@septicvernon.com]]>
+              <![CDATA[The value entered for Email ID is gajeliy704@septicvernon.com]]>
             </line>
             <line>
               <![CDATA[The value entered for Password is Welcome@123]]>
@@ -390,7 +390,7 @@
               <![CDATA[Clicked on Order History]]>
             </line>
             <line>
-              <![CDATA[The Value for Order Reference is LTHWJAOWR]]>
+              <![CDATA[The Value for Order Reference is AUSOKVDRU]]>
             </line>
             <line>
               <![CDATA[The Value for Order Price is $19.25]]>
@@ -403,7 +403,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- testPurchasing -->
-      </class> <!-- com.selenium.tests.Purchasing -->
+      </class> <!-- com.selenium.tests.T02_Purchasing -->
     </test> <!-- Online Shopping -->
   </suite> <!-- Suite -->
 </testng-results>

@@ -3,8 +3,8 @@
 <suite name="Suite">
 	<test name="Online Shopping" preserve-order="true">
 		<classes>
-			<class name='com.selenium.tests.Registration' />
-			<class name='com.selenium.tests.Purchasing' />
+			<class name='com.selenium.tests.T01_Registration' />
+			<class name='com.selenium.tests.T02_Purchasing' />
 		</classes>
 	</test> <!-- MainTest -->
 </suite> <!-- Suite -->
